@@ -1,0 +1,119 @@
+ERROR - 2024-01-21 17:21:27 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in C:\xampp\htdocs\crudCode\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\crudCode\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('SHOW TABLES FRO...', 0)
+#1 C:\xampp\htdocs\crudCode\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SHOW TABLES FRO...')
+#2 C:\xampp\htdocs\crudCode\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SHOW TABLES FRO...')
+#3 C:\xampp\htdocs\crudCode\vendor\codeigniter4\framework\system\Database\BaseConnection.php(1410): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#4 C:\xampp\htdocs\crudCode\vendor\codeigniter4\framework\system\Database\BaseConnection.php(1429): CodeIgniter\Database\BaseConnection->listTables()
+#5 C:\xampp\htdocs\crudCode\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(757): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#6 C:\xampp\htdocs\crudCode\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(161): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 C:\xampp\htdocs\crudCode\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\crudCode\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\crudCode\vendor\codeigniter4\framework\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\crudCode\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2024-01-21 17:29:35 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in C:\xampp\htdocs\crudCode\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\crudCode\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('SHOW TABLES FRO...', 0)
+#1 C:\xampp\htdocs\crudCode\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SHOW TABLES FRO...')
+#2 C:\xampp\htdocs\crudCode\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SHOW TABLES FRO...')
+#3 C:\xampp\htdocs\crudCode\vendor\codeigniter4\framework\system\Database\BaseConnection.php(1410): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#4 C:\xampp\htdocs\crudCode\vendor\codeigniter4\framework\system\Database\BaseConnection.php(1429): CodeIgniter\Database\BaseConnection->listTables()
+#5 C:\xampp\htdocs\crudCode\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(757): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#6 C:\xampp\htdocs\crudCode\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(161): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 C:\xampp\htdocs\crudCode\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\crudCode\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\crudCode\vendor\codeigniter4\framework\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\crudCode\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+CRITICAL - 2024-01-21 18:04:35 --> ErrorException: Undefined variable $router
+in APPPATH\Config\Routes.php on line 21.
+ 1 APPPATH\Config\Routes.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $router', 'C:\\xampp\\htdocs\\crudCode\\app\\Config\\Routes.php', 21)
+ 2 SYSTEMPATH\Router\RouteCollection.php(344): require('C:\\xampp\\htdocs\\crudCode\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(810): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-21 18:06:01 --> ErrorException: Undefined variable $router
+in APPPATH\Config\Routes.php on line 21.
+ 1 APPPATH\Config\Routes.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $router', 'C:\\xampp\\htdocs\\crudCode\\app\\Config\\Routes.php', 21)
+ 2 SYSTEMPATH\Router\RouteCollection.php(344): require('C:\\xampp\\htdocs\\crudCode\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(810): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-21 18:06:02 --> ErrorException: Undefined variable $router
+in APPPATH\Config\Routes.php on line 21.
+ 1 APPPATH\Config\Routes.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $router', 'C:\\xampp\\htdocs\\crudCode\\app\\Config\\Routes.php', 21)
+ 2 SYSTEMPATH\Router\RouteCollection.php(344): require('C:\\xampp\\htdocs\\crudCode\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(810): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-21 18:06:03 --> ErrorException: Undefined variable $router
+in APPPATH\Config\Routes.php on line 21.
+ 1 APPPATH\Config\Routes.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $router', 'C:\\xampp\\htdocs\\crudCode\\app\\Config\\Routes.php', 21)
+ 2 SYSTEMPATH\Router\RouteCollection.php(344): require('C:\\xampp\\htdocs\\crudCode\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(810): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-21 18:06:40 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "listado.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('listado.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('listado', [], true)
+ 3 APPPATH\Controllers\crud.php(18): view('listado', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Crud->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-21 18:54:12 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it.
+ in C:\xampp\htdocs\crudCode\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\xampp\htdocs\crudCode\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root@', '', 'crudcode', 3306, '', 0)
+#1 C:\xampp\htdocs\crudCode\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\crudCode\vendor\codeigniter4\framework\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\crudCode\app\Models\CrudModel.php(11): CodeIgniter\Database\BaseConnection->query('SELECT * FROM t...')
+#4 C:\xampp\htdocs\crudCode\app\Controllers\crud.php(12): App\Models\CrudModel->listarNombres()
+#5 C:\xampp\htdocs\crudCode\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\Crud->index()
+#6 C:\xampp\htdocs\crudCode\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud))
+#7 C:\xampp\htdocs\crudCode\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\crudCode\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\crudCode\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it.
+ in C:\xampp\htdocs\crudCode\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\crudCode\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\crudCode\vendor\codeigniter4\framework\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\crudCode\app\Models\CrudModel.php(11): CodeIgniter\Database\BaseConnection->query('SELECT * FROM t...')
+#3 C:\xampp\htdocs\crudCode\app\Controllers\crud.php(12): App\Models\CrudModel->listarNombres()
+#4 C:\xampp\htdocs\crudCode\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\Crud->index()
+#5 C:\xampp\htdocs\crudCode\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud))
+#6 C:\xampp\htdocs\crudCode\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\crudCode\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\crudCode\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2024-01-21 18:54:12 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\CrudModel.php(11): CodeIgniter\Database\BaseConnection->query('SELECT * FROM t_personas')
+ 3 APPPATH\Controllers\crud.php(12): App\Models\CrudModel->listarNombres()
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Crud->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\crudCode\\public\\index.php')
+CRITICAL - 2024-01-21 19:29:15 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "editar.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('editar.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('editar', [], true)
+ 3 APPPATH\Controllers\crud.php(69): view('editar', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Crud->editar('4')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\crudCode\\public\\index.php')
